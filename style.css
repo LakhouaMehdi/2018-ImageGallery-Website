@@ -1,0 +1,97 @@
+/* Lakhoua Mehdi
+UCI
+34592546 */
+
+		table {
+			width: 100%;
+			background: PowderBlue ;
+			
+		}
+		
+		th, td {
+			text-align: center;
+		}
+		body{
+			font-family: sans-serif;
+		}
+	
+		h1{
+			text-align: center;
+			color: forestgreen;
+			margin: 30px 0 20px;
+		}
+		
+		legend{
+		text-align:left;
+		color: forestgreen;
+		}
+		
+		.imageList td:hover {
+			border: 1px solid #ccc;
+		}
+		.imageList img:hover {
+			cursor: pointer;
+		}
+		
+		
+		.galleryList img{
+			width: 300px;
+			padding:5px;
+			height: auto;
+		}
+
+		.artistList table{
+			border: 1px solid black;
+			width: 100%;
+			text-align: center;
+			background: PowderBlue  ;
+		}
+		
+		.addForm legend {
+			text-align:center;
+			color: forestgreen;
+		}
+		.innerMenu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			
+		}
+		.innerMenu li {
+			float: left;
+
+		}
+		.innerMenu {
+			display: table;
+		}
+		.topMenu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			
+		    position: -webkit-sticky; // Safari
+			position: sticky;
+			top: 0;
+					
+			width: 100%;
+		}
+		
+		.topMenu li {
+			float: left;
+		}
+
+		.topMenu li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		//Change the link color to #111 (black) on hover 
+		.topMenu li a:hover {
+			background-color: #111;
+		}
